@@ -7,3 +7,11 @@ Development of d\*TREK begin in 1994 with a DOE grant (written by Jim Pflugrath 
 Please note that d\*TREK is not thread safe.
 
 Also, note that because of licensing issues, the open source version of d\*TREK contains neither the Reqab absorption correction nor the absorption correction written by Higashi. It also does not make any use of collision file information during the strategy generation. Finally, this version does not require a license for operation.
+
+Building the d*TREK on Linux is a two step process:
+
+In the DTDISPLAY subdirectory, run the command
+make -f Makefile.linux lib
+
+In the DTTREK subdirectory, run the command
+make -f Makefile.linux
