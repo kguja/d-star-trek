@@ -11,7 +11,9 @@ Also, note that because of licensing issues, the open source version of d\*TREK 
 Building the d*TREK on Linux is a two step process:
 
 In the DTDISPLAY subdirectory, run the command
+
 make -f Makefile.linux lib
 
 In the DTTREK subdirectory, run the command
+
 make -f Makefile.linux
