@@ -8,12 +8,15 @@ Please note that d\*TREK is not thread safe.
 
 Also, note that because of licensing issues, the open source version of d\*TREK contains neither the Reqab absorption correction nor the absorption correction written by Higashi. It also does not make any use of collision file information during the strategy generation. Finally, this version does not require a license for operation.
 
-Building the d*TREK on Linux is a two step process:
 
-In the DTDISPLAY subdirectory, run the command
+# Introduction to building d*TREK
+The d\*TREK command line programs are built from the command line using make. Depending on the operating system, there are specific makefiles that should be used; generally these are named _Makefile.$os_, where _$os_ is the name of the operating system (_Makefile.linux_ for Linux, etc).
 
-make -f Makefile.linux lib
+# Linux
+Building the command line programs on Linux is a two step process:
 
-In the DTTREK subdirectory, run the command
+In the DTDISPLAY subdirectory, run the command  
+>    `make -f Makefile.linux lib`  
 
-make -f Makefile.linux
+In the DTTREK subdirectory, run the command  
+>    `make -f Makefile.linux`  
