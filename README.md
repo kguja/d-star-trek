@@ -12,7 +12,7 @@ Also, note that because of licensing issues, the open source version of d\*TREK 
 # Introduction to building d*TREK
 The d\*TREK command line programs are built from the command line using make. Depending on the operating system, there are specific makefiles that should be used; generally these are named _Makefile.$os_, where _$os_ is the name of the operating system (_Makefile.linux_ for Linux, etc).
 
-# Linux
+# Building d*TREK on Linux
 Building the command line programs on Linux is a two step process:
 
 In the DTDISPLAY subdirectory, run the command  
